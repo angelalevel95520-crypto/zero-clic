@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Zéro Clic — Tes cours en direct, sans lever le petit doigt</title>
+<meta name="description" content="Zéro Clic ouvre tes cours en direct (Telegram, Zoom) tout seul sur Android.">
+<style>
+  :root { --bg:#0d1714; --card:#13231e; --green:#7fd9bb; --gold:#e6c46a; --text:#e8f1ee; --muted:#9fb5ae; }
+  * { box-sizing: border-box; }
+  body { margin:0; font-family: system-ui, -apple-system, Segoe UI, Roboto, sans-serif; background:var(--bg); color:var(--text); line-height:1.6; }
+  main { max-width: 720px; margin: 0 auto; padding: 32px 20px 64px; }
+  h1 { font-size: 2.4rem; margin: 0 0 4px; color: var(--green); }
+  .tag { color: var(--muted); font-size: 1.1rem; margin: 0 0 28px; }
+  h2 { color: var(--gold); font-size: 1.25rem; margin: 36px 0 10px; }
+  .card { background: var(--card); border-radius: 18px; padding: 20px 22px; margin: 14px 0; }
+  .btn { display:inline-block; background: var(--green); color:#073b2c; font-weight:700; text-decoration:none; padding: 16px 28px; border-radius: 999px; font-size:1.1rem; margin: 10px 0 4px; }
+  .small { color: var(--muted); font-size: .92rem; }
+  ol, ul { padding-left: 1.3rem; }
+  li { margin: 6px 0; }
+  footer { margin-top: 48px; color: var(--muted); font-size: .9rem; border-top: 1px solid #22372f; padding-top: 18px; }
+  .warn { border-left: 4px solid var(--gold); }
+</style>
+</head>
+<body>
+<main>
+  <h1>Zéro Clic</h1>
+  <p class="tag">Tes cours en direct, sans lever le petit doigt.</p>
+
+  <div class="card">
+    <p>Zéro Clic lit les notifications de Telegram, repère tes cours en direct (live Telegram, salon vidéo ou lien Zoom) et les ouvre à ta place. Elle te prévient avec une sonnerie, même quand ton téléphone est verrouillé, puis elle appuie sur « Rejoindre » ou « Participer » pour toi.</p>
+    <a class="btn" href="zero-clic.apk" download>Télécharger l'appli (Android)</a>
+    <p class="small">Fichier APK · environ 10 Mo · pour téléphones Android</p>
+  </div>
+
+  <h2>Ce que fait l'appli</h2>
+  <ul>
+    <li>Repère les annonces de cours dans tes chaînes Telegram et construit ton planning.</li>
+    <li>Détecte quand un live ou un salon vidéo commence, ou quand un lien Zoom est publié.</li>
+    <li>Sonne à l'heure du cours, puis ouvre Telegram ou Zoom au bon endroit.</li>
+    <li>Appuie toute seule sur « Rejoindre » ou « Participer ».</li>
+  </ul>
+
+  <h2>Comment l'installer</h2>
+  <ol>
+    <li>Appuie sur « Télécharger l'appli » depuis ton téléphone Android.</li>
+    <li>Ouvre le fichier téléchargé. Android te demandera d'autoriser l'installation d'applications inconnues pour ton navigateur : accepte.</li>
+    <li>Ouvre Zéro Clic et suis les réglages : accès aux notifications, affichage par-dessus les autres applis, notifications, et « Aide à rejoindre » (accessibilité).</li>
+  </ol>
+
+  <div class="card warn">
+    <h2 style="margin-top:0">Pourquoi ces autorisations ?</h2>
+    <ul>
+      <li><b>Accès aux notifications</b> : pour lire les messages de Telegram et repérer les cours.</li>
+      <li><b>Accessibilité (« Aide à rejoindre »)</b> : pour appuyer sur « Rejoindre » ou « Participer » à ta place. Elle n'agit que quelques minutes après l'ouverture d'un cours, et seulement dans Telegram et Zoom.</li>
+      <li><b>Affichage par-dessus les autres applis, alarmes, plein écran</b> : pour sonner et ouvrir le cours quand le téléphone est verrouillé.</li>
+    </ul>
+    <p><b>Tes données restent sur ton téléphone.</b> L'appli n'a pas l'autorisation d'accéder à Internet : elle ne peut rien envoyer.</p>
+  </div>
+
+  <h2>Bon à savoir</h2>
+  <ul>
+    <li>Android affiche des avertissements pour les applis installées hors du Play Store. C'est normal. Ils apparaissent parce que l'appli n'est pas sur le Play Store, pas à cause d'un problème dans l'appli.</li>
+    <li>Quand ton téléphone est verrouillé, Android ne permet pas d'ouvrir une appli à ta place. Zéro Clic sonne, et le cours s'ouvre dès que tu déverrouilles.</li>
+    <li>Sur certains téléphones (Samsung par exemple), il faut désactiver l'économie de batterie pour Telegram, sinon Telegram « s'endort » et les notifications arrivent en retard.</li>
+    <li>L'appli est en test : elle peut encore avoir des défauts.</li>
+  </ul>
+
+  <footer>
+    <p>Zéro Clic a été créée avec Claude, l'assistant d'IA d'Anthropic. Elle est éditée et publiée par Amatullah, qui en est responsable.</p>
+  </footer>
+</main>
+</body>
+</html>
